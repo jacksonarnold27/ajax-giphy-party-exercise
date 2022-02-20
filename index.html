@@ -5,8 +5,18 @@
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
 </head>
-
 <body>
+
+<form method="GET" id='search-form'>
+  <label for="search-input">Search GIPHY:
+    <input type="search" name="q" id="search-input" placeholder='puppies'>
+  </label>
+  <button type="submit" id='search-btn'>GIF me</button>
+</form>
+
+<div id="giphy-container">
+
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
